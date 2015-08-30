@@ -323,3 +323,45 @@
         width: 100%;
     }
 }
+
+.grid-item {
+    position: relative;
+
+    &:hover .post-info {
+        display: block;
+        opacity: 1;
+
+    }
+}
+
+.post-info {
+    //display: none;
+    position: absolute;
+    background: #3BBB76;
+    background: rgba(59, 187, 188, 0.88);
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 4px;
+    width: auto;
+    height: 100%;
+    padding: 20px;
+    margin-right: 4px;
+    padding-right: 4px;
+    opacity: 0;
+    transition: all 0.1s;
+}
+
+.post-date {
+    display: block;
+    color: #D2D2D2;
+    font-size: 16px;
+}
+.post-title {
+    color: #FFF;
+    font-size: 16px;
+
+}
+
+
+

@@ -16,7 +16,11 @@ layout: default
         </h2>
         -->
 
-        <a href="#"><img src="{{ post.preview }}" /></a>
+        <a href="#" class="post-link"><img src="{{ post.preview }}" /></a>
+        <div class="post-info">
+            <span class="post-date">—{{ post.date | date: "%Y" }}.</span>
+            <span class="post-title">{{ post.title }}</span>
+        </div>
       </li>
     {% endfor %}
   </ul>
