@@ -202,7 +202,6 @@
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -338,28 +337,30 @@
     //display: none;
     position: absolute;
     background: #3BBB76;
-    background: rgba(59, 187, 188, 0.88);
+    background: rgba(3, 195, 74, 0.88);
     top: 0;
     right: 0;
     left: 0;
     margin: 0 4px;
     width: auto;
     height: 100%;
-    padding: 20px;
+    padding: 20px 40px;
     margin-right: 4px;
     opacity: 0;
     transition: all 0.1s;
-    line-height: 32px;
+    pointer-events: none;
 }
 
 .post-date {
     display: block;
-    color: #D2D2D2;
+    color: #D8D8D8;
     font-size: 24px;
+    line-height: 48px;
 }
 .post-title {
     color: #FFF;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 26px;
 
 }
 
