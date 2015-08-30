@@ -327,7 +327,7 @@
 .grid-item {
     position: relative;
 
-    &:hover .post-info {
+    &:not(.info):hover .post-info {
         display: block;
         opacity: 1;
 
@@ -347,7 +347,6 @@
     height: 100%;
     padding: 20px;
     margin-right: 4px;
-    padding-right: 4px;
     opacity: 0;
     transition: all 0.1s;
     line-height: 32px;
@@ -364,5 +363,14 @@
 
 }
 
+.grid-item.info {
+    background: #ADFED6;
+    padding: 80px;
 
+    h1 {
+        color: #0A47BC
+
+    }
+
+}
 

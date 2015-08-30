@@ -7,7 +7,7 @@ layout: default
   <ul class="post-list grid">
       <li class="grid-sizer"></li>
     {% for post in site.posts %}
-    <li class="{% if post.width %}grid-item--width{{ post.width }}{% endif %} grid-item">
+    <li class="{% if post.width %}grid-item--width{{ post.width }}{% endif %} grid-item {% if post.type == 'info'%}info{% endif %}">
       <!--
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -21,6 +21,9 @@ layout: default
             <span class="post-date">—{{ post.date | date: "%Y" }}.</span>
             <span class="post-title">{{ post.title }}</span>
         </div>
+        {% if post.type == 'info' %}
+        {{ post.content }}
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

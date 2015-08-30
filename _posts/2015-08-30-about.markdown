@@ -4,4 +4,8 @@ title: About
 preview: /assets/about/Alina_Loseva_About.jpg
 date: 2014-08-30
 width: 2
+type: info
 ---
+# Hello!
+My name is Alina Loseva. I am a graphic and lettering designer from Russia, based in Barcelona. I believe any complex ideas should be shown in a beautiful and accessible way.
+I have a vast experience over 7 years in different studios and as a freelancer working as createive director, graphic designer and doing pre-press. I have a bachelor degree in Graphic Design and Visual Communications (HASGD, Moscow 2009), Master degree in Branding and packaging (IDEP Barcelona, 2013), Master in Typography Design (EINA, Barcelona, 2014). I always tend to keep studying and exploring new things inside our beatiful endless world.
