@@ -1,0 +1,7 @@
+---
+layout: post
+title: Logo proposal for for streetwear shop Urbanite
+preview: /assets/urbanite/Alina_Loseva_Urbanite_02.jpg
+date: 2013-08-06
+width: 1
+---

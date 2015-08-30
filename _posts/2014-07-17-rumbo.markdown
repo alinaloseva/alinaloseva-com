@@ -1,0 +1,7 @@
+---
+layout: post
+title: Rona typography preview
+preview: /assets/rumbo/Alina_Loseva_elRumbo.jpg
+date: 2014-07-17
+width: 1
+---

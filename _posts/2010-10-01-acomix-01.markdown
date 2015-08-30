@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Visual identity for coloring system AkzoNobel
+preview: /assets/acomix/Alina_Loseva_acomix_01.jpg
+date: 2010-10-01
+width: 2
+---

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Logo for coloring system AkzoNobel
+preview: /assets/acomix/Alina_Loseva_acomix_02.jpg
+date: 2010-10-01
+width: 1
+---

@@ -1,0 +1,7 @@
+---
+layout: post
+title: Logo for streetwear shop Urbanite
+preview: /assets/urbanite/Alina_Loseva_Urbanite_03.jpg
+date: 2013-08-06
+width: 1
+---

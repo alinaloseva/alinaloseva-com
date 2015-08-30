@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Wine packaging design proposal inspired by Alan Fletcher
+preview: /assets/wine/Alina_Loseva_wine_04.jpg
+date: 2014-06-03
+width: 1
+---

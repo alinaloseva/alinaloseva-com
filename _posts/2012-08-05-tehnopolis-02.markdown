@@ -1,0 +1,7 @@
+---
+layout: post
+title: Logo proposal for technologic area/space in Moscow
+preview: /assets/tehnopolis/Alina_Loseva_tehnopolis_02.jpg
+date: 2012-08-05
+width: 1
+---

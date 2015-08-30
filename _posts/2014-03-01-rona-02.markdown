@@ -1,0 +1,7 @@
+---
+layout: post
+title: Rona typography preview
+preview: /assets/Rona/Alina_Loseva_Rona_font_02.jpg
+date: 2014-03-01
+width: 1
+---

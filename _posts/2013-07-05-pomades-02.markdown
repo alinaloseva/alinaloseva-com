@@ -1,0 +1,7 @@
+---
+layout: post
+title: Logo proposal for Moscow based men's grooming shop 
+preview: /assets/pomades/Alina_Loseva_Pomades_logo_02.jpg
+date: 2013-07-07
+width: 1
+---

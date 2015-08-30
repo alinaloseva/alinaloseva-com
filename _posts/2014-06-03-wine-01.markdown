@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Wine bottle design proposal inspired by Alan Fletcher
+preview: /assets/wine/Alina_Loseva_wine_01.jpg
+date: 2014-06-03
+width: 2
+---

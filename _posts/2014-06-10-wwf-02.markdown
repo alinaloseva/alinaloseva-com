@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Magazine layout proposal for ONG organization WWf "Great Animals"
+preview: /assets/wwf/Alina_Loseva_WWF_pages_02.jpg
+date: 2014-06-10
+width: 2
+---
