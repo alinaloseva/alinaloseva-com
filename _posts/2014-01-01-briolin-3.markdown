@@ -1,0 +1,6 @@
+---
+layout: post
+title: Logo proposal for the barber shop in Moscow Briolin
+preview: /assets/briolin/briolin_logo_process_03.jpg
+date: 2014-01-01
+---

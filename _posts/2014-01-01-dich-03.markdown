@@ -1,0 +1,6 @@
+---
+layout: post
+title: Versatile dynamic logo concept for the Moscow club Dich
+preview: /assets/dich/Alina_Loseva_Dich_03.jpg
+date: 2014-01-01
+---

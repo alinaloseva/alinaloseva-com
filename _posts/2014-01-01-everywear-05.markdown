@@ -1,0 +1,6 @@
+---
+layout: post
+title: Logo concept for mobile app
+preview: /assets/everywear/Alina_Loseva_everywear_05.jpg
+date: 2014-01-01
+---

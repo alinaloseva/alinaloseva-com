@@ -1,0 +1,7 @@
+---
+layout: post
+title: Logo proposal for kids app
+preview: /assets/on-the-grow/Alina_Loseva_on_the_grow_02.jpg
+date: 2012-01-01
+width: 1
+---

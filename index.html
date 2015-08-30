@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list grid">
+      <li class="grid-sizer"></li>
+    {% for post in site.posts %}
+    <li class="{% if post.width %}grid-item--width{{ post.width }}{% endif %} grid-item">
+      <!--
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        -->
+
+        <a href="#"><img src="{{ post.preview }}" /></a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

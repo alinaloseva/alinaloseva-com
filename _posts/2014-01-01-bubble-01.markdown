@@ -1,0 +1,7 @@
+---
+layout: post
+title: Cover concept for the toy DIY magazine Bubble
+preview: /assets/bubble/Alina_Loseva_Bubble_01.jpg
+date: 2014-01-01
+width: 2
+---

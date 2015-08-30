@@ -1,0 +1,7 @@
+---
+layout: post
+title: About
+preview: /assets/about/Alina_Loseva_About.jpg
+date: 2014-08-30
+width: 2
+---

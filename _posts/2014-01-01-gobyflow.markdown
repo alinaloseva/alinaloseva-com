@@ -1,0 +1,7 @@
+---
+layout: post
+title: Visual identity for VJ group
+preview: /assets/gobyflow/Alina_Loseva_Go_by_flow.jpg
+date: 2014-01-01
+width: 2
+---
