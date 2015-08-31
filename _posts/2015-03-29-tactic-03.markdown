@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logo proposal for time cafe & escape rooms Tactic
-preview: /assets/tactic/Alina_Loseva_Tactic_03.jpg
+preview: /assets/tactic/Alina_Loseva_Tactic_03.gif
 date: 2015-03-29
 width: 1
 ---

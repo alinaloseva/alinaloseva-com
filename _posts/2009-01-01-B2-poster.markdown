@@ -2,6 +2,6 @@
 layout: post
 title: Poster proposal for a russian rock-band B2
 preview: /assets/b2/Alina_Loseva_b2_poster.jpg
-date: 2010-01-01
+date: 2009-01-01
 width: 2
 ---
