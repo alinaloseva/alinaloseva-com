@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rona typography preview
+title: Logo for online furniture shop
 preview: /assets/rumbo/Alina_Loseva_elRumbo.jpg
 date: 2014-07-17
 width: 1
