@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logo for the online & pop-up magazine store
-preview: /assets/kiosk/Alina_Loseva_Kiosk_01.jpg
+preview: /assets/kiosk/Alina_Loseva_Kiosk_01.gif
 date: 2014-01-01
 width: 2
 ---
