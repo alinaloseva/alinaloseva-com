@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rona typography preview
-preview: /assets/Rona/Alina_Loseva_Rona_font_04.jpg
+preview: /assets/Rona/Alina_Loseva_Rona_font_04.gif
 date: 2014-03-01
 width: 2
 ---
