@@ -20,6 +20,10 @@ layout: default
         <div class="post-info">
             <span class="post-date">—{{ post.date | date: "%Y" }}.</span>
             <span class="post-title">{{ post.title }}</span>
+            <div class="preview__share-buttons">
+            <a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-lang="ja" data-pin-config="above" data-pin-lang="ja" data-pin-color="red" data-pin-height="28"><img
+                src="//assets.pinterest.com/images/pidgets/pinit_fg_ja_rect_red_28.png" /></a>
+        </div>
         </div>
         {% if post.type == 'info' %}
         {{ post.content }}
