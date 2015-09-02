@@ -388,11 +388,21 @@
     background: #ADFED6;
     padding: 70px;
 
+    &:after {
+        content: url('/assets/alina_smile.svg');
+        display: block;
+        position: absolute;
+        right: 73px;
+        bottom: 73px;
+    }
+
+    // Размер заголовка в эбауте
     h1 {
-        color: #0A47BC;
+        color: $blue;
         font-size: 36px;
     }
 
+    // Размер при большем разрешении
     @media screen and (min-width: 1700px) {
         h1 {
             font-size: 48px;
@@ -409,11 +419,14 @@
             font-size: 22px;
         }
     }
+
+    // Размер основного текста
     p {
         font-size: 13px;
         padding-right: 100px;
     }
 
+    // Размер при большем разрешении
     @media screen and (min-width: 1700px) {
         p {
             font-size: 17px;
@@ -423,6 +436,28 @@
     .post-link {
         margin-bottom: 80px;
 
+    }
+
+
+    .contacts {
+        color: $blue;
+        a {
+            color: $blue;
+            &:hover {
+                color: $blue;
+            }
+        }
+        // Размер текста в контактах
+        p {
+            font-size: 13px;
+        }
+
+        // Размер текста при большем разрешении
+        @media screen and (min-width: 1700px) {
+            p {
+                font-size: 17px;
+            }
+        }
     }
 
 }
