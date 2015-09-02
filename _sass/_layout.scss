@@ -462,3 +462,25 @@
 
 }
 
+
+.preview__share-buttons {
+    * {
+        float: left;
+        margin-right: 10px;
+        vertical-align: middle;
+
+    }
+
+    .fb-link {
+        transform: scale(2.5);
+        -ms-transform: scale(2.5);
+        -webkit-transform: scale(1.4);
+        -o-transform: scale(2.5);
+        -moz-transform: scale(2.5);
+        top: 4px;
+        filter: hue-rotate(240deg);
+        -webkit-filter: hue-rotate(70deg);
+        left: 15px;
+    }
+
+}
