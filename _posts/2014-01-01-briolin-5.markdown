@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Logo proposal for the barber shop in Moscow Briolin
-preview: /assets/briolin/Alina_Loseva_Briolin_logo_process_05.jpg
+preview: /previews/Alina_Loseva_Briolin_logo_process_05.jpg
 date: 2014-01-01
 width: 2
 ---
+/assets/briolin/Alina_Loseva_Briolin_logo_process_05.jpg
