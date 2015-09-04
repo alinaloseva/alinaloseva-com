@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Identity for Moscow based Cultural Centre Perspectiva
-preview: /assets/perspectiva/Alina_Loseva_Perspectiva_010.jpg
+preview: /previews/Alina_Loseva_Perspectiva_010.jpg
 date: 2014-01-01
 width: 2
 ---
+/assets/perspectiva/Alina_Loseva_Perspectiva_010.jpg

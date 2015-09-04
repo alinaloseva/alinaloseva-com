@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Logo proposal for the online & pop-up magazine store
-preview: /assets/kiosk/Alina_Loseva_Kiosk_02.jpg
+preview: /previews/Alina_Loseva_Kiosk_02.jpg
 date: 2014-01-01
 ---
+/assets/kiosk/Alina_Loseva_Kiosk_02.jpg

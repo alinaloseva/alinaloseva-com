@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cover of the theater program
-preview: /assets/game-over/Alina_Loseva_cover_game_over.jpg
+preview: /previews/Alina_Loseva_cover_game_over.jpg
 date: 2014-01-01
 ---
+/assets/game-over/Alina_Loseva_cover_game_over.jpg
