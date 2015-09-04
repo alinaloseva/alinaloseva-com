@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Logo concept for mobile app
-preview: /assets/everywear/Alina_Loseva_everywear_01.jpg
+preview: /previews/Alina_Loseva_everywear_01.jpg
 date: 2014-01-01
 ---
+/assets/everywear/Alina_Loseva_everywear_01.jpg
