@@ -487,3 +487,59 @@
     }
 
 }
+
+#project-view {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    overflow: scroll;
+    max-height: 100%;
+    overflow-y: scroll;
+    padding: 150px 0px 300px;
+    background: rgba(222, 222, 222, 0.7);
+    min-height: 100%;
+
+    img {
+        display: block;
+        margin: 0 auto;
+        padding: 0 200px;
+    }
+}
+
+.project__close-container {
+    position: fixed;
+    right: 60px;
+}
+
+.project__close-button {
+    display: block;
+    &:after {
+        content: url('/assets/alina_cross.svg');
+        display: block;
+    }
+}
+
+.project__arrow-container {
+    position: fixed;
+    top: 50%;
+    right: 60px;
+    margin-top: -67px;
+}
+
+.project__arrow-prev, .project__arrow-next {
+    display: block;
+    right: 50px;
+    margin-bottom: 20px;
+
+    &:after {
+        content: url('/assets/alina_arrow.svg');
+        display: inline-block;
+    }
+}
+
+.project__arrow-prev:after {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
