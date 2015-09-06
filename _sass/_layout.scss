@@ -173,7 +173,7 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
+    .grid-container > li {
         //margin-bottom: $spacing-unit;
         padding-left: 4px;
         padding-right: 4px;
@@ -384,7 +384,7 @@
 }
 
 
-.grid-item.info {
+.post-list .grid-container > li.grid-item.info {
     background: #ADFED6;
     padding: 70px;
 
