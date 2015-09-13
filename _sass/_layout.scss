@@ -1,3 +1,5 @@
+$on-palm:          600px;
+$on-laptop:        800px;
 /**
  * Site header
  */
@@ -590,4 +592,26 @@
         display: inline;
 
     }
+}
+
+.alina__logo {
+    background: url('../assets/alina_loseva_logo.svg');
+    background-size: 356px 43px;
+    height: 43px;
+    width: 356px;
+    position: fixed;
+    z-index: 1;
+    top: 176px;
+    left: -142px;
+
+    transform: rotate(-90deg);
+
+    @include media-query($on-palm) {
+        left: 0px;
+        top: 20px;
+        margin: 0 auto;
+        right: 0px;
+        transform: rotate(0deg);
+    }
+
 }
