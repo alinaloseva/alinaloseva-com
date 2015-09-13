@@ -6,8 +6,8 @@
 		{
 			"id": {{collection.id|jsonify}},
             "date": {{collection.date | date: "%Y" }},
-            "next-post": {{collection.next.id|jsonify}},
-            "prev-post": {{collection.previous.id|jsonify}},
+            "next-post": {{collection.previous.id|jsonify}},
+            "prev-post": {{collection.next.id|jsonify}},
 			"title": {{collection.title | jsonify}},
 			"url": {{collection.title | slugify | jsonify}},
 			"content": {{collection.output | jsonify}},
