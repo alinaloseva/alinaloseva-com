@@ -616,6 +616,12 @@ $on-laptop:        800px;
 
 }
 
+.container-fluid._projectOpen {
+    .alina__go-top {
+        display: none;
+    }
+}
+
 .alina__go-top {
     background: url('../assets/alina_top.svg');
     background-size: 45px 65px;
