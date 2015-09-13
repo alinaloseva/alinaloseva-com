@@ -521,6 +521,15 @@
     right: 60px;
     bottom: 160px;
 
+    .pin-share {
+        transform: scale(0.85);
+        //-ms-transform: scale(0.71);
+        //-webkit-transform: scale(0.71);
+        //-o-transform: scale(0.71);
+        //-moz-transform: scale(0.71);
+        margin-top: 10px;
+        margin-left: -4px;
+    }
 }
 
 .project__close-container {
