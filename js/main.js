@@ -25,9 +25,9 @@ $(function() {
     });
 
     $('body').on('click', '.project__close-button', function(event) {
-        event.preventDefault();
+        //event.preventDefault();
         //$('body'),remove($popup);
-        $popup.remove();
+        //$popup.remove();
     });
 
     $('body').on('click', '.project__arrow-next', function(event) {
