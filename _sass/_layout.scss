@@ -509,11 +509,18 @@
     background: rgba(222, 222, 222, 0.7);
     min-height: 100%;
 
-    img {
+    > img {
         display: block;
         margin: 0 auto;
         padding: 0 200px;
     }
+}
+
+.project__share-buttons {
+    position: fixed;
+    right: 60px;
+    bottom: 160px;
+
 }
 
 .project__close-container {
