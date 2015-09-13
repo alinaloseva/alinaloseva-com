@@ -9,7 +9,7 @@
             "next-post": {{collection.next.id|jsonify}},
             "prev-post": {{collection.previous.id|jsonify}},
 			"title": {{collection.title | jsonify}},
-			"url": {{collection.external_url | jsonify}},
+			"url": {{collection.title | slugify | jsonify}},
 			"content": {{collection.output | jsonify}},
 			"skills": {{collection.skills | jsonify}},
             "image_url": {{collection.content | jsonify}},
