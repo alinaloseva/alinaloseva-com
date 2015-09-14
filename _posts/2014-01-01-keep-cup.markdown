@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logo proposal cafe-on-the-run
+title: Logo proposal for cafe-on-the-run
 preview: /previews/Alina_Loseva_keep_cup.jpg
 date: 2014-01-01
 ---

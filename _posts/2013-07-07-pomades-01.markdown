@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logo for Moscow based men's grooming shop
+title: Logo for Moscow based men's grooming shop "Pomades"
 preview: /previews/Alina_Loseva_Pomades_logo_01.jpg
 date: 2013-07-07
 width: 1

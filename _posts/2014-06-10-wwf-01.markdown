@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Magazine cover proposal for ONG organization WWf "Great Animals"
+title:  Magazine cover proposal for ONG organization WWF "Great Animals"
 preview: /previews/Alina_Loseva_WWF_cover_01.jpg
 date: 2014-06-10
 width: 2

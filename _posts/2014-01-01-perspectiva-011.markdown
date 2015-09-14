@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Identity proposal for Moscow based Cultural Centre Perspectiva
+title: Identity proposal for Moscow based Cultural Centre "Perspectiva"
 preview: /previews/Alina_Loseva_Perspectiva_011.jpg
 date: 2014-01-01
 width: 2
