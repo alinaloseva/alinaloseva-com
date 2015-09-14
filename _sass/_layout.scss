@@ -405,47 +405,55 @@ $on-laptop:        800px;
     // Размер заголовка в эбауте
     h1 {
         color: $blue;
-        font-size: 36px;
+        //font-size: 36px;
+        font-size: 48px;
+        margin-bottom: 5px;
     }
 
     // Размер при большем разрешении
     @media screen and (min-width: 1700px) {
         h1 {
-            font-size: 48px;
+            //font-size: 48px;
         }
     }
 
     h2 {
-        font-size: 17px;
+        //font-size: 17px;
+        font-size: 22px;
+        line-height: 29px;
         padding-right: 100px;
+        margin-bottom: 10px;
     }
 
     @media screen and (min-width: 1700px) {
         h2 {
-            font-size: 22px;
+            //font-size: 22px;
         }
     }
 
     // Размер основного текста
     p {
-        font-size: 13px;
+        font-size: 17px;
+        line-height: 26px;
         padding-right: 100px;
     }
 
     // Размер при большем разрешении
     @media screen and (min-width: 1700px) {
         p {
-            font-size: 17px;
+            //font-size: 17px;
         }
     }
 
     .post-link {
-        margin-bottom: 80px;
+        //margin-bottom: 80px;
+        margin-bottom: 52px;
 
     }
 
 
     .contacts {
+        margin-top: 210px;
         color: $blue;
         a {
             color: $blue;
@@ -455,13 +463,15 @@ $on-laptop:        800px;
         }
         // Размер текста в контактах
         p {
-            font-size: 13px;
+            //font-size: 13px;
+            font-size: 17px;
+            line-height: 23px;
         }
 
         // Размер текста при большем разрешении
         @media screen and (min-width: 1700px) {
             p {
-                font-size: 17px;
+                //font-size: 17px;
             }
         }
     }
