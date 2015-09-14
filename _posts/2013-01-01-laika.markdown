@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visual identity for online shop of interesting goods
+title: Visual identity for online shop of interesting goods "Laika"
 preview: /previews/Alina_loseva_Laika_project.jpg
 date: 2013-01-01
 width: 2

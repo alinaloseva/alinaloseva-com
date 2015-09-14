@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Poster proposal for Moscow based Cultural Centre Perspectiva
+title: Poster proposal for Moscow based Cultural Centre "Perspectiva"
 preview: /previews/Alina_Loseva_Perspectiva_09.jpg
 date: 2014-01-01
 width: 1

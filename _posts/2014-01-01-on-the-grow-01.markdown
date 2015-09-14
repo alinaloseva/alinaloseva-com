@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logo proposal for kids app
+title: Logo proposal for kids app "On The Grow"
 preview: /previews/Alina_Loseva_on_the_grow_01.jpg
 date: 2012-01-01
 width: 1

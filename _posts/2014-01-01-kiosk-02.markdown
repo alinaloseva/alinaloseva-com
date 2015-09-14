@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logo proposal for the online & pop-up magazine store
+title: Logo proposal for the online & pop-up magazine store "Kiosk"
 preview: /previews/Alina_Loseva_Kiosk_02.jpg
 date: 2014-01-01
 ---

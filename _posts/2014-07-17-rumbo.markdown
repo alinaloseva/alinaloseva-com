@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logo for online furniture shop
+title: Logo for online furniture shop "El Rumbo"
 preview: /previews/Alina_Loseva_elRumbo.jpg
 date: 2014-07-17
 width: 1
