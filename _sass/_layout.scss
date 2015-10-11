@@ -668,7 +668,7 @@ $on-laptop:        800px;
     height: 65px;
     position: fixed;
     z-index: 1;
-    top: 30px;
+    top: 20px;
     right: 30px;
     
     @include media-query($on-palm) {
