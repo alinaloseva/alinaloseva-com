@@ -655,6 +655,10 @@ $on-laptop:        800px;
     }
 }
 
+body._open {
+    overflow: hidden;
+}
+
 .container-fluid._projectOpen {
     .alina__go-top {
         display: none;
