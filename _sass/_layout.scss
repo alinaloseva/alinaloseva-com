@@ -407,6 +407,12 @@ $on-laptop:        800px;
     background: #ADFED6;
     padding: 26px;
 
+    @media screen and (min-width: 1800px) {
+        width: 40%;
+    }
+
+
+
     &:after {
         content: url('/assets/alina_smile.svg');
         display: block;
