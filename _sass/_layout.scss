@@ -398,17 +398,57 @@ $on-laptop:        800px;
     }
 }
 
+.lazy-load {
+    overflow: auto;
+    position: relative;
+}
 
 .post-list .grid-container > li.grid-item.info {
     background: #ADFED6;
-    padding: 70px;
+    padding: 26px;
 
     &:after {
         content: url('/assets/alina_smile.svg');
         display: block;
         position: absolute;
-        right: 73px;
-        bottom: 73px;
+        right: 26px;
+        width: 33px;
+        height: 33px;
+        bottom: 26px;
+    }
+
+    .post-link {
+        //width: 50%;
+        //float: left;
+ 
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 13px;
+    height: 100%;
+    padding-left: 13px;
+    display: block;
+    /* padding-right: 26px; */
+    /* margin-right: 26px; */
+    float: left;       //padding-right: 13px;
+    @include media-query($on-palm) {
+        padding-left: 0px;
+        right: 0px;
+        position: relative;
+    }
+    }
+
+    .text-container {
+        margin-left: 50%;
+        width: 50%;
+        float: left;
+        padding-left: 13px;
+        @include media-query($on-palm) {
+            width: 100%;
+            margin-left: 0px;
+            padding-left: 0px;
+        }
     }
 
     // Размер заголовка в эбауте
@@ -428,9 +468,9 @@ $on-laptop:        800px;
 
     h2 {
         //font-size: 17px;
-        font-size: 22px;
-        line-height: 29px;
-        padding-right: 100px;
+        font-size: 17px;
+        line-height: 23px;
+        padding-right: 20pt;
         margin-bottom: 10px;
     }
 
@@ -442,9 +482,9 @@ $on-laptop:        800px;
 
     // Размер основного текста
     p {
-        font-size: 17px;
-        line-height: 26px;
-        padding-right: 100px;
+        font-size: 12px;
+        line-height: 20px;
+        padding-right: 43pt;
     }
 
     // Размер при большем разрешении
@@ -456,13 +496,13 @@ $on-laptop:        800px;
 
     .post-link {
         //margin-bottom: 80px;
-        margin-bottom: 52px;
+        //margin-bottom: 52px;
 
     }
 
 
     .contacts {
-        margin-top: 210px;
+        margin-top: 50;
         color: $blue;
         a {
             color: $blue;
@@ -473,8 +513,17 @@ $on-laptop:        800px;
         // Размер текста в контактах
         p {
             //font-size: 13px;
-            font-size: 17px;
-            line-height: 23px;
+            font-size: 13px;
+            line-height: 19px;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+            strong {
+                font-family: 'Rona';
+
+            }
+
         }
 
         // Размер текста при большем разрешении
@@ -487,6 +536,41 @@ $on-laptop:        800px;
 
 }
 
+.grid-item.info .post-link img {
+    display: none;
+}
+
+@include media-query($on-palm) {
+    .grid-item.info .post-link img {
+        display: block;
+    }
+}
+
+.grid-item.info .preview__anchor-container {
+    width: 50%;
+    display: block;
+    height: 100%;
+    position: absolute;
+    /* min-height: 100%; */
+}
+
+.grid-item.info .preview__anchor-container a {
+    background: url('/assets/about/profile.jpg');
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+@include media-query($on-palm) {
+    .grid-item.info .preview__anchor-container {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .grid-item.info .preview__anchor-container a {
+        background: none;
+    }
+    
+}
 
 .preview__share-buttons {
     top: 35px;
