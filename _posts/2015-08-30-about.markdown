@@ -3,7 +3,7 @@ layout: post
 title: About
 preview: /assets/about/profile.jpg
 date: 2014-08-30
-width: 2
+width: 3
 type: info
 ---
 # Hello! #
@@ -14,7 +14,7 @@ I have a vast experience over 7 years in different studios and as a freelancer w
 <div class='contacts' markdown='1'>
 Feel free to contact me –
 
-+34 622 584 209<br />
-<hello@alinaloseva.com><br />
+<strong>+34 622 584 209</strong><br />
+<strong><hello@alinaloseva.com></strong><br />
 (I speak Russian, English and Spanish)
 </div>
