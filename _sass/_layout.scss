@@ -401,48 +401,54 @@ $on-laptop:        800px;
 .lazy-load {
     overflow: auto;
     position: relative;
+
+    @include media-query($on-palm) {
+        .grid-item.info & {
+            overflow: visible;
+        }
+    }
 }
 
-.post-list .grid-container > li.grid-item.info {
+li.grid-item.info {
     background: #ADFED6;
     padding: 26px;
 
-    @media screen and (min-width: 1800px) {
-        width: 40%;
-    }
+    @include media-query($on-palm) {
+        overflow-y: scroll;
+        height: auto;
+        max-height: calc(100vh);
+        width: 100%;
+        padding: 55px 45px;
+        display: none;
 
-
-
-    &:after {
-        content: url('/assets/alina_smile.svg');
-        display: block;
-        position: absolute;
-        right: 26px;
-        width: 33px;
-        height: 33px;
-        bottom: 26px;
+        body._open & {
+            display: block;
+        }
     }
 
     .post-link {
-        //width: 50%;
-        //float: left;
- 
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    bottom: 0px;
-    right: 13px;
-    height: 100%;
-    padding-left: 13px;
-    display: block;
-    /* padding-right: 26px; */
-    /* margin-right: 26px; */
-    float: left;       //padding-right: 13px;
-    @include media-query($on-palm) {
-        padding-left: 0px;
-        right: 0px;
-        position: relative;
-    }
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        bottom: 0px;
+        right: 13px;
+        height: 100%;
+        padding-left: 13px;
+        display: block;
+        /* padding-right: 26px; */
+        /* margin-right: 26px; */
+        float: left;       //padding-right: 13px;
+        @include media-query($on-palm) {
+            padding-left: 0px;
+            right: 0px;
+            position: relative;
+
+            &:after {
+              content: "";
+              display: block;
+              padding-bottom: 100%;
+            }
+        }
     }
 
     .text-container {
@@ -454,6 +460,7 @@ $on-laptop:        800px;
             width: 100%;
             margin-left: 0px;
             padding-left: 0px;
+            padding-top: 34px;
         }
     }
 
@@ -500,13 +507,6 @@ $on-laptop:        800px;
         }
     }
 
-    .post-link {
-        //margin-bottom: 80px;
-        //margin-bottom: 52px;
-
-    }
-
-
     .contacts {
         margin-top: 50;
         color: $blue;
@@ -539,6 +539,35 @@ $on-laptop:        800px;
             }
         }
     }
+}
+
+.post-list .grid-container > li.grid-item.info {
+    @media screen and (min-width: 1800px) {
+        width: 40%;
+    }
+
+    @include media-query($on-palm) {
+        //display: none;
+        position: absolute;
+        top: -7px;
+        z-index: 1;
+        margin-left: -15px;
+        width: 100%;
+        box-sizing: content-box;
+        padding: 15px;
+        
+    }
+
+
+    &:after {
+        content: url('/assets/alina_smile.svg');
+        display: block;
+        position: absolute;
+        right: 26px;
+        width: 33px;
+        height: 33px;
+        bottom: 26px;
+    }
 
 }
 
@@ -548,7 +577,7 @@ $on-laptop:        800px;
 
 @include media-query($on-palm) {
     .grid-item.info .post-link img {
-        display: block;
+        //display: block;
     }
 }
 
@@ -573,7 +602,7 @@ $on-laptop:        800px;
         position: relative;
     }
     .grid-item.info .preview__anchor-container a {
-        background: none;
+        //background: none;
     }
     
 }
@@ -706,11 +735,11 @@ $on-laptop:        800px;
 
 .alina__logo {
     background: url('../assets/alina_loseva_logo.svg');
-    background-size: 356px 43px;
-    height: 43px;
-    width: 356px;
+    background-size: 160px 39px;
+    height: 39px;
+    width: 160px;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 96px;
     left: -157px;
 
@@ -724,6 +753,10 @@ $on-laptop:        800px;
         transform: rotate(0deg);
     }
 
+}
+
+body._open {
+    overflow: hidden;
 }
 
 .alina__contacts-mobile {
@@ -743,11 +776,12 @@ $on-laptop:        800px;
     @include media-query($on-palm) {
         display: block;
     }
+
+    body._open & {
+        display: none;
+    }
 }
 
-body._open {
-    overflow: hidden;
-}
 
 .container-fluid._projectOpen {
     .alina__go-top {
@@ -767,6 +801,47 @@ body._open {
     
     @include media-query($on-palm) {
         display: none;
+    }
+
+}
+
+.alina__mobile-about {
+    &:after {
+        content: url('/assets/alina_black_smile.svg');
+        position: fixed;
+        display: none;
+        z-index: 1;
+        left: 50%;
+        top: 12px;
+        margin-left: 100px;   
+        bottom: 26px;
+        height: 24px;
+    }
+    @include media-query($on-palm) {
+        &:after {
+            display: block;
+        }
+    }
+
+    body._open & {
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.post-about__mobile-close {
+    width: 28px;
+    height: 28px;
+    background: url('/assets/alina_cross.svg');
+    background-size: 28px;
+    position: absolute;
+    right: -22px;
+    top: -13px;
+    display: none;
+
+    @include media-query($on-palm) {
+        display: block;
     }
 
 }
