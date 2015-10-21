@@ -5,4 +5,4 @@ preview: /previews/Alina_Loseva_Rona_font_04.gif
 date: 2014-03-01
 width: 2
 ---
-/assets/Rona/Alina_Loseva_Rona_font_04.gif
+/assets/rona/Alina_Loseva_Rona_font_04.gif
