@@ -744,6 +744,9 @@ li.grid-item.info {
     left: -61px;
 
     transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
 
     @include media-query($on-palm) {
         left: 0px;
@@ -751,6 +754,9 @@ li.grid-item.info {
         margin: 0 auto;
         right: 0px;
         transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
     }
 
 }
