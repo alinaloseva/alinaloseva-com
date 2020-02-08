@@ -3,7 +3,7 @@ layout: post
 title: About
 preview: /assets/about/profile.jpg
 date: 2014-08-30
-width: 3
+width: 2
 type: info
 ---
 # Hello! #
